@@ -1,0 +1,33 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    
+
+    .container {
+        gap: 10px;
+        display: grid;
+        margin: 10px;
+        width: 100vw;
+        grid-template-columns: repeat(3, 1fr);
+        
+        .items {
+            margin-top: 10px;
+
+            button{
+                border: 1px solid rgba(128, 128, 128, 0.73);
+            }
+
+            .cardActions{
+                display: flex;
+                justify-content: space-between;
+            }
+        }
+    }
+
+
+
+
+
+
+
+}
